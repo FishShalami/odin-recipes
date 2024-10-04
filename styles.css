@@ -82,11 +82,32 @@ div .recipe-list a {
 
 }
 
-
 img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 200px;
     margin: 0 auto;
     display: block;
 }
+
+.return-home {
+    display: block;
+    /* background-color: blue; */
+    text-align: right;
+    margin-right: 5%;
+}
+
+.pic-block {
+    text-align: center;
+}
+
+.pic-block.one,
+.pic-block.two,
+.pic-block.three {
+    display: inline-block; /* Allows the images to sit inline but behave like blocks */
+    width: 30%; /* Each of the first two images takes up 45% of the container */
+    margin: 10px 10px; /* Adds vertical spacing between images */
+    vertical-align: top; /* Ensures the images align at the top */
+}
+
+
